@@ -1,0 +1,109 @@
+body{
+
+  overflow: hidden;
+}
+.container{
+  display: flex;
+}
+.img{
+  background-image: url(./1280\ _\ 720.png);
+  width: 1920px;
+height: 755px;
+}
+.img2{
+ margin: 3rem;
+}
+.logcontainer{
+  width: 793px;
+  height: 744px;
+  border-radius: 27px;
+  background: #FFF;
+  box-shadow: 50px 50px 20px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 47rem;
+  display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+ flex-direction: column; 
+}
+
+.textlog {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  
+}
+.tex1{
+  font-size: 4rem;
+}
+ 
+ form .data{
+  height: 45px;
+  width: 100%;
+  margin: 40px 0;
+}
+form .data label{
+  font-size: 18px;
+}
+form .data input{
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid silver;
+}
+form .data input:focus{
+  border-color: #3498db;
+  border-bottom-width: 2px;
+}
+form .forgot-pass{
+  margin-top: -8px;
+}
+form .forgot-pass a{
+  color: #3498db;
+  text-decoration: none;
+}
+form .forgot-pass a:hover{
+  text-decoration: underline;
+}
+
+form .btn:hover .inner{
+  left: 0;
+}
+form .btn button{
+  display: flex;
+  width: 448px;
+  height: 49px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  background: #0577AB;
+  cursor: pointer;
+  border-color: #0577AB;
+  font-size: 30px;
+  color: white;
+}
+form .signup-link{
+  text-align: center;
+  bottom: 3rem;
+    position: absolute;
+    left: 21rem;
+}
+form .signup-link a{
+  color: #3498db;
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+/* .image .img {
+  height: 1007px;
+  left: 0;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  width: 1920px;
+} */
